@@ -5,6 +5,7 @@ void swap(int a, int b) {
   int temp = a;
   a = b;
   b = temp;
+  cout << "In the swap function itself value of a " << a << " and b " << b << endl;
 }
 
 void swapPointer(int* a, int* b) {
@@ -15,7 +16,7 @@ void swapPointer(int* a, int* b) {
 }
 
 void swapReferenceVar(int &a, int &b) {
-  cout << "Call by reference using reference"
+  cout << "Call by reference using reference";
   int temp = a;
   a = b;
   b = temp;
